@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+ }
+ 
+ .all-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+ }
+ 
+ .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+ }
+ 
+ img.logo {
+    max-width: 180px;
+    margin-bottom: 20px;
+ }
+ 
+ h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: black;
+ }
+ 
+ p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+ }
+ 
+ a.phone {
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 1rem 0;
+    padding: 10px 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+ }
+ a.phone:hover {
+    color: white;
+    transform: scale(1.1);
+ }
+ 
+ a.phone i {
+    margin-right: 8px;
+ }
+ 
+ .s-media a {
+    color: black;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+ }
+ 
+ .s-media a:hover {
+    color: #333;
+ }
+ 
+ /* Mobile */
+ @media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        box-shadow: none;
+    }
+    h4 {
+       font-size: 2.25rem;
+       text-transform: capitalize;
+   }
+ 
+ 
+    p {
+        font-size: 1rem;
+    }
+ 
+    img.logo {
+        max-width: 150px;
+    }
+ 
+    .s-media a {
+        font-size: 1.3rem;
+        margin: 0 10px;
+    }
+ }
+ 
+ /* Desktop */
+ @media (min-width: 769px) {
+    .container {
+        padding: 40px;
+    }
+ 
+    h4 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+ 
+    p {
+        font-size: 1.2rem;
+    }
+ 
+    img.logo {
+        max-width: 220px;
+    }
+ 
+    a.phone {
+        font-size: 1.2rem;
+    }
+ 
+    .s-media a {
+        font-size: 1.25rem;
+    }
+ }
+ 
